@@ -15,7 +15,8 @@ def favicon():
 @app.get("/")
 async def _(qnF: float, xF: float, xD: float, xW: float, alpha: float, q: float, beta: float, r: int = 4):
     s = Solution(qnF, xF, xD, xW, alpha, q, beta)
-    html = f"""<div style="margin: 0 auto;width: fit-content;"><title>塔板数计算器</title>
+    html = f"""<div style="margin: 0 auto;width: fit-content;">
+<title>塔板数计算器</title>
 <h2>塔板数计算器</h2>
 <span style="display:block;margin:1em 0">项目地址：<a href="https://github.com/Drelf2018/plate-number-calculator">https://github.com/Drelf2018/plate-number-calculator</a></span>
 <span style="display:block;margin:1em 0">如有使用中的疑问、建议或问题反馈可在项目留言。</span></div>
