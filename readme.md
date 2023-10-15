@@ -2,7 +2,15 @@
 
 应付大作业的产物
 
-### 使用
+### 在线使用
+
+参考下列网址，修改其中的数值为你的题目数据，访问修改后的链接即可得到结果
+
+```
+https://chem.nana7mi.link/?qnF=80&xF=0.65&xD=0.98&xW=0.02&alpha=1.132&q=1&beta=1.6
+```
+
+### 脚本调用
 
 ```python
 from solution import Solution
